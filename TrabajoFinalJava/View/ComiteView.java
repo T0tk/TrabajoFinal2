@@ -5,6 +5,8 @@ import Model.Persona;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+//Vistas del comite
 public class ComiteView {
     public void displayComiteDetails(Comite comite) {
         System.out.println("╔══════════════════════════════════════╗");
