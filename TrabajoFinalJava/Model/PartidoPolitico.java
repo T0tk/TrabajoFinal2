@@ -12,6 +12,8 @@ public class PartidoPolitico extends EntidadFinanciera {
     private List<Comite> comites;
     private double fondosTotales; //nuevo atributo
 
+    
+    //Creacion de modelo partido politico 
     public PartidoPolitico(String nombre, double fondos){
         super(fondos);
         this.nombre=nombre;
