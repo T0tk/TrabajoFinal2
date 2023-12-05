@@ -7,6 +7,7 @@ import View.DonanteView;
 import java.util.ArrayList;
 import java.util.List;
 
+//Clase controlador de donante
 public class DonanteController {
     private List<Donante> donantes;
     private DonanteView donanteView;
