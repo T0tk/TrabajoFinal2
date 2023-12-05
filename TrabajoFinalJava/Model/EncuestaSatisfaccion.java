@@ -25,6 +25,7 @@ public class EncuestaSatisfaccion implements Evaluable{
         this.comment = comment;
     }
 
+    //Polimorfismo en el metodo evaluar
     @Override
     public void evaluar() {
         System.out.println("Encuesta evaluada con un porcentaje de satisfacción del " + Satisfactionpercentage + "%");
