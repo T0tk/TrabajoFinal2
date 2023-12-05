@@ -63,6 +63,7 @@ public class Main {
         }
     }
 
+    //Menu principal
     private static void printMainMenu() {
         clearScreen();
         System.out.println("+-------------------------------+");
